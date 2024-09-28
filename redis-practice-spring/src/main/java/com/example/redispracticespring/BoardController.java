@@ -14,7 +14,6 @@ import java.util.List;
 public class BoardController {
     private final BoardService boardService;
 
-
     @GetMapping()
     public List<Board> getBoards(
             @RequestParam(defaultValue = "1") int page, @RequestParam(defaultValue = "10") int size
