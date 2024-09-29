@@ -32,3 +32,9 @@ spring:
     url: jdbc:mysql://test-db.cv28mqsa8pf8.us-east-1.rds.amazonaws.com:3306/mydb
     username: admin
     password: password
+
+  # ElastiCache redis 설정
+  data:
+    redis:
+#      host: { default endpoint }
+      port: 6379 # default
